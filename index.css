@@ -1,12 +1,20 @@
 #button1 {
 
-    background-color: white;
-    border-color: black;
-    padding: 24px;
-    border-radius: 8px;
+    background-color: #a3c9df;
+    width: 150px;
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    border-color: white;
+    padding: 8px;
+    border-radius: 80%;
     transition-duration: 0.4s;
     cursor: pointer;
 }
 #button1:hover {
-background-color: #cf7ca1;
+background-color: #dda9c0;
+}
+img {
+    width: 150px;
+    
 }
