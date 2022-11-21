@@ -1,0 +1,12 @@
+#button1 {
+
+    background-color: white;
+    border-color: black;
+    padding: 24px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#button1:hover {
+background-color: #cf7ca1;
+}
