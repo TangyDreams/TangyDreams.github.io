@@ -1,6 +1,7 @@
 #button1 {
 
     background-color: #a3c9df;
+    color: white;
     width: 150px;
     font-size: x-large;
     font-style: italic;
@@ -15,6 +16,7 @@
 background-color: #dda9c0;
 }
 img {
-    width: 150px;
+    width: 300px;
     
 }
+
