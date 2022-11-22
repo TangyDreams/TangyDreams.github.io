@@ -5,7 +5,7 @@
     width: 150px;
     font-size: x-large;
     font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: LEMONMILK;
     border-color: white;
     padding: 8px;
     border-radius: 80%;
@@ -23,8 +23,12 @@ img {
     font-family: Akira;
     src: url(Akira\ Expanded\ Demo.otf);
 }
-h2 { border-bottom: 3px solid #ffeaf9;
-    
-    
 
+@font-face {
+    font-family: LEMONMILK;
+    src: url(LEMONMILK-LightItalic.otf);
+}
+h2 { border-bottom: 3px solid #ffeaf9;}
+p {
+    font-family: LEMONMILK;
 }
