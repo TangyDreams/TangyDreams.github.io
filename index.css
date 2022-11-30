@@ -18,6 +18,27 @@ background-color: #dda9c0;
 #button1 {
     position: relative; top: 50px;
 }
+#button2 {
+
+    background-color: #a3c9df;
+    color: white;
+    width: 150px;
+    font-size: x-large;
+    font-style: italic;
+    font-family: LEMONMILK;
+    border-color: white;
+    padding: 8px;
+    border-radius: 80%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#button2:hover {
+    background-color: #dda9c0;
+    }
+    #button2 {
+        position: relative; top: 125px;
+        position: relative; left: -150px;
+    }
 .audio-container {
     display: flex;
     justify-content: center;
@@ -53,4 +74,13 @@ position: relative; left: 75%;
 position: relative; top: 10px;
 border: #ffeaf9;
 border-width: 3px;
+}
+#digital-clock:hover {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
