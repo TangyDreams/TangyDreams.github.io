@@ -82,13 +82,8 @@ p1 {
     font-family: LEMONMILK;
 }
 
-
-h1 {
-    font-family: Akira
-}
-
-h2 {
-    font-family: Akira
+#Header {
+    font-family: Akira;
 }
 
 #digital-clock {
