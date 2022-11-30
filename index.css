@@ -15,6 +15,14 @@
 #button1:hover {
 background-color: #dda9c0;
 }
+#button1 {
+    position: relative; top: 50px;
+}
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 img {
     width: 300px;
     
@@ -28,7 +36,21 @@ img {
     font-family: LEMONMILK;
     src: url(LEMONMILK-LightItalic.otf);
 }
+@font-face {
+    font-family: Digital;
+    src: url(digital-7.ttf);
+}
 h2 { border-bottom: 3px solid #ffeaf9;}
 p1 {
     font-family: LEMONMILK;
+}
+#digital-clock {
+width: 35%;
+font-family: Digital;
+font-size: 24px;
+text-align: center;
+position: relative; left: 75%;
+position: relative; top: 10px;
+border: #ffeaf9;
+border-width: 3px;
 }
