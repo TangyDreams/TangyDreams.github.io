@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<!--Custom Header Font-->
-    <style>
-       @font-face { font-family: Akira; src: url(Akira\ Expanded\ Demo.otf); } 
-      h1 {
-         font-family: Akira
-      }
-    </style>
-     <style>
-        @font-face { font-family: Akira; src: url(Akira\ Expanded\ Demo.otf); } 
-       h2 {
-          font-family: Akira
-       }
-     </style>
-     
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
+   <div class="Container">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Welcome</title>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="index.css">
+   </div>
+
 <body>
-   <!--Digital Clock-->
-<div id="digital-clock"> </div>
-<script src="index.js"> </script>
-<header>
-<h style="font-size: small">
-<h1 style="text-align:center;">Welcome</h1>
-</h>
-<h style="font-size: xx-large">
-<h2 style="text-align: center;">Stay for a bit</h2>
-</h>
-</header>
-<!--Carousel Text-->
-<marquee><b><i><p1 style="color:#ffeaf9">Don't stay too long</i></b></p1></marquee>
-<!--Background Music-->
- <div class='audio-container'>
-   <audio controls>
-      <source src="Midnight_Pretenders.mp3" type="audio/mpeg" />
-      <source src="Midnight_Pretenders.ogg" type="audio/ogg" />
-   </audio>
-</div>
+   <div id="clock">
+      <!--Digital Clock-->
+      <div id="digital-clock"> </div>
+      <script src="index.js"> </script>
+   </div>
+   <div>
+      <h style="font-size: small">
+         <h1 style="text-align:center;">Welcome</h1>
+      </h>
+      <h style="font-size: xx-large">
+         <h2 style="text-align: center;">Stay for a bit</h2>
+      </h>
+   </div>
+   <div id="Carousel">
+      <!--Carousel Text-->
+      <marquee>
+         <p1 style="color:#ffeaf9">Don't stay too long...</p1>
+      </marquee>
+   </div>
+   <div>
+      <div id="Background-Music">
+         <!--Background Music-->
+         <div class='audio-container'>
+            <audio controls>
+               <source src="Midnight_Pretenders.mp3" type="audio/mpeg" />
+               <source src="Midnight_Pretenders.ogg" type="audio/ogg" />
+            </audio>
+         </div>
+      </div>
+      <div id="Background">
+         <!--Background Image-->
 
-<br>
-
-
-<!--Background Image-->
-<body background="hiroshi-nagai_cover-art.jpg" text="#ffeaf9" link="#color" vlink="#color"></body>
-<!--Miscellaneous Button-->
-<a href='misc.html'></button>
-<button id="button1">misc</button>
-</a>
-<!--Miscellaneous Button #2-->
-<button id="button2" class="center" type="button">BUTTON</button>
-<br>
+         <body background="hiroshi-nagai_cover-art.jpg" text="#ffeaf9" link="#color" vlink="#color"></body>
+      </div>
+      <div class="buttons">
+         <!--Miscellaneous Button-->
+         <a href='misc.html'></button>
+            <button id="button1">misc</button>
+         </a>
+         <!--Miscellaneous Button #2-->
+         <button id="button2" class="center" type="button">BUTTON</button>
+      </div>
+      <br>
 </body>
 </head>
