@@ -115,7 +115,6 @@ p1 {
 
 .static:hover {
   opacity: 0;
-  cursor: pointer;
 }
 
 .Moving.image {
