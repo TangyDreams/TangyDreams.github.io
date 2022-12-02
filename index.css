@@ -119,10 +119,9 @@ p1 {
 }
 
 .Moving.image {
-  left: 30%;
-  top: 205px;
+  left: 90%;
   position: absolute;
-  width: 70px;
+  width: 75px;
 }
 img {
   max-width: inherit;
