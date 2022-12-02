@@ -88,7 +88,7 @@ p1 {
   font-family: Digital;
   font-size: 24px;
   text-align: center;
-  position: relative;
+  position: absolute;
   left: 75%;
   top: 10px;
   border: #ffeaf9;
@@ -110,10 +110,26 @@ p1 {
   font-style: bold;
 }
 .static {
-  position:absolute;
-  background: white;
+  position: absolute;
 }
 
 .static:hover {
-  opacity:0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.Moving.image {
+  left: 90%;
+  position: absolute;
+  width: 75px;
+}
+img {
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+.Moving.image:hover {
+  transform: scale(1.5);
 }
